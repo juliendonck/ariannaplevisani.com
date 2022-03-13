@@ -160,9 +160,6 @@ body {
   line-height: 150%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 10vw;
   text-align: center;
   background: url(./img/bg.png) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -172,11 +169,13 @@ body {
 }
 
 a {
+  width: 100%;
+  height: 100vh;
+  padding: 45vh;
   font-family: serif;
   color: black;
 }
 
 a:hover {
-  color: red;
   text-decoration: underline;
 }
